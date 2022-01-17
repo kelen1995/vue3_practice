@@ -58,7 +58,8 @@ import {createApp} from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.27/vue.e
 const app = createApp({
     data() {
         return {
-            products
+            products,
+            temp:{}
         }
     }
 });

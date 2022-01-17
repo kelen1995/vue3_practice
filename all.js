@@ -1,6 +1,6 @@
 // 產品資料格式
 
-products: [
+const products = [
     {
       category: "甜甜圈",
       content: "尺寸：14x14cm",
@@ -52,3 +52,15 @@ products: [
       ]
     }
   ]
+
+import {createApp} from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.27/vue.esm-browser.min.js';
+
+const app = createApp({
+    data() {
+        return {
+            products
+        }
+    }
+});
+
+app.mount('#app');

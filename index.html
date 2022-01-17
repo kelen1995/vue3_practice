@@ -32,8 +32,8 @@
                     </th>
                   </tr>
                 </thead>
-                <tbody v-for="item in products">
-                  <tr>
+                <tbody>
+                  <tr v-for="item in products">
                     <td width="150">{{ item.title }}</td>
                     <td width="120">
                       {{ item.origin_price }}
